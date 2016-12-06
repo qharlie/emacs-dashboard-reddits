@@ -3,4 +3,4 @@ Adds a /r/emacs section to the dashboard.
 
 
 
-![Screenshot](screenshot.jpg?raw=true "Screenshot")
+![Screenshot](screenshot.png?raw=true "Screenshot")
