@@ -12,7 +12,7 @@
             (insert "\n    ")
             (widget-create 'push-button
                            :action `(lambda (&rest ignore)
-				      (browse-url url))
+				      (browse-url ,url))
                            :mouse-face 'highlight
                            :follow-link "\C-m"
                            :button-prefix ""
@@ -34,7 +34,7 @@
 
 	(url-copy-file "https://www.reddit.com/r/emacs/.json"  file-path)
 	(setq reddit-list (mapcar (lambda (entry)
-				    (format "%s__%s " (let-alist entry .data.title ) (let-alist entry .data.url )))
+				    (format "^%s\t  %s__%s " (let-alist entry .data.score ) (let-alist entry .data.title ) (let-alist entry .data.url )))
 					;(concat (let-alist entry .data.title ) (concat " - " (let-alist entry .data.url ))))
 				  (let-alist (json-read-file  file-path) .data.children)))
 
