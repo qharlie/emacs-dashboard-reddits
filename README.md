@@ -1,5 +1,5 @@
 # emacs-dashboard-reddits
-This is a plugin for the ![Emacs Dashboard](emacs-dashboard)
+This is a plugin for the ![Emacs Dashboard](https://github.com/rakanalh/emacs-dashboard)
 
 
 Adds a /r/emacs section to the dashboard.
