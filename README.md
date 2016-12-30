@@ -1,4 +1,7 @@
 # emacs-dashboard-reddits
+This is a plugin for the ![Emacs Dashboard](emacs-dashboard)
+
+
 Adds a /r/emacs section to the dashboard.
 
 Until I get this into MELPA you will have to clone this repository and load it with customizing your dashboard in your .emacs file, for example: 
