@@ -42,7 +42,7 @@
 	(when (dashboard-insert-reddit-list
 	       "Recent Posts to /r/emacs:"
 	       (dashboard-subseq reddit-list 0 list-size)))	 
-	(dashboard-insert--shortcut "p" "Recent Posts:")
+	;(dashboard-insert--shortcut "p" "Recent Posts:")
 	)
     
     ))
